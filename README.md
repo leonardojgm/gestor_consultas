@@ -1,5 +1,5 @@
 # Gestor de Consultas
-Um gestor de consultas desenvolvido no 7DaysOfCode da Alura
+Um gestor de consultas desenvolvido no 7DaysOfCode da Alura (Responsividade com Natália F. Dev)
 
 ![image](https://github.com/user-attachments/assets/f9d358a1-327b-4894-b584-d28d28592aac)
 
