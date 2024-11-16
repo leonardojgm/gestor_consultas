@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Consultas</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img class="cabecalho__perfil" src="img/perfil-1.jpg" alt="Foto de perfil Sônia">
+            <div class="cabecalho__informacoes">
+                <h1 class="cabecalho__saudacao">Olá, Sônia</h1>
+                <h2 class="cabecalho__consultas">Mais 4 consultas hoje</h2>
+            </div>
+        </header>
+        <main class="principal">
+            <section class="botoes-flutuantes">
+                <input class="botoes-flutuantes__checkbox" type="checkbox" id="exibir-botoes-flutuantes">
+                <label class="botoes-flutuantes__incluir" for="exibir-botoes-flutuantes">
+                    <img class="botoes-flutuantes__incluir-icone" src="img/icones/Mais.svg" alt="Ícone de inclusão">
+                </label>
+                <div class="botoes-flutuantes__fundo"></div>
+                <ul class="botoes-flutuantes__lista">
+                    <li class="botoes-flutuantes__item">
+                        <a class="botoes-flutuantes__item-link" href="#">
+                            <span class="botoes-flutuantes__item-texto">Nova consulta na casa do paciente</span>
+                            <img class="botoes-flutuantes__item-icone" src="img/icones/Pin-btn.svg" alt="Ícone de consulta em casa">
+                        </a>
+                    </li>
+                    <li class="botoes-flutuantes__item">
+                        <a class="botoes-flutuantes__item-link" href="#">
+                            <span class="botoes-flutuantes__item-texto">Nova consulta por vídeo</span>
+                            <img class="botoes-flutuantes__item-icone" src="img/icones/Camera-btn.svg" alt="Ícone de consulta por video">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="consultas">
+                <ul class="consultas__lista">
+                    <li class="consultas__dia">
+                        <h3 class="consultas__dia-titulo">Hoje</h3>
+                        <ul class="consultas__dia-horario">
+                            <li class="consulta">
+                                <div class="consulta__cliente">
+                                    <img class="consulta__perfil" src="img/perfil-2.jpg" alt="Foto de perfil Luciana Dias">
+                                    <div class="consulta__descricao">
+                                        <h4 class="consulta__nome">Luciana Dias</h4>
+                                        <h5 class="consulta__tipo">
+                                            <img class="consulta__icone" src="img/icones/Camera.svg" alt="Ícone de consulta remota">
+                                            <span>Consulta remota</span>
+                                        </h5>
+                                    </div>
+                                    <div class="consulta__chat">
+                                        <a href="#">
+                                            <img src="img/icones/Chat.svg" alt="Ícone de conversa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="consulta__horario">14:00 - 15:00 (1 hora)</p>
+                                <div class="consulta__botoes">
+                                    <a class="consulta__botao botao-video" href="#">Ligar por vídeo</a>
+                                    <a class="consulta__botao" href="#">Ligar por áudio</a>
+                                </div>
+                            </li>
+                            <li class="consulta">
+                                <div class="consulta__cliente">
+                                    <img class="consulta__perfil" src="img/perfil-3.jpg" alt="Foto de perfil Larissa Santana">
+                                    <div class="consulta__descricao">
+                                        <h4 class="consulta__nome">Larissa Santana</h4>
+                                        <h5 class="consulta__tipo">
+                                            <img class="consulta__icone" src="img/icones/Pin.svg" alt="Ícone de consulta remota">
+                                            <span>Consulta no local</span>
+                                        </h5>
+                                    </div>
+                                    <div class="consulta__chat">
+                                        <a href="#">
+                                            <img src="img/icones/Chat.svg" alt="Ícone de conversa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="consulta__horario">16:00 - 17:00 (1 hora)</p>
+                                <div class="consulta__botoes">
+                                    <a class="consulta__botao botao-endereco" href="#">Ver endereço</a>
+                                </div>
+                            </li>
+                            <li class="consulta">
+                                <div class="consulta__cliente">
+                                    <img class="consulta__perfil" src="img/perfil-4.jpg" alt="Foto de perfil Marcos Correia">
+                                    <div class="consulta__descricao">
+                                        <h4 class="consulta__nome">Marcos Correia</h4>
+                                        <h5 class="consulta__tipo">
+                                            <img class="consulta__icone" src="img/icones/Camera.svg" alt="Ícone de consulta remota">
+                                            <span>Consulta remota</span>
+                                        </h5>
+                                    </div>
+                                    <div class="consulta__chat">
+                                        <a href="#">
+                                            <img src="img/icones/Chat.svg" alt="Ícone de conversa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="consulta__horario">17:20 - 18:00 (40 minutos)</p>
+                                <div class="consulta__botoes">
+                                    <a class="consulta__botao botao-video" href="#">Ligar por vídeo</a>
+                                    <a class="consulta__botao" href="#">Ligar por áudio</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="consultas__dia">
+                        <h3 class="consultas__dia-titulo">Amanhã</h3>
+                        <ul class="consultas__dia-horario">
+                            <li class="consulta">
+                                <div class="consulta__cliente">
+                                    <img class="consulta__perfil" src="img/perfil-5.jpg" alt="Foto de perfil Clara Lemos">
+                                    <div class="consulta__descricao">
+                                        <h4 class="consulta__nome">Clara Lemos</h4>
+                                        <h5 class="consulta__tipo">
+                                            <img class="consulta__icone" src="img/icones/Pin.svg" alt="Ícone de consulta remota">
+                                            <span>Consulta no local</span>
+                                        </h5>
+                                    </div>
+                                    <div class="consulta__chat">
+                                        <a href="#">
+                                            <img src="img/icones/Chat.svg" alt="Ícone de conversa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="consulta__horario">18:00 - 19:00 (1 hora)</p>
+                                <div class="consulta__botoes">
+                                    <a class="consulta__botao botao-endereco" href="#">Ver endereço</a>
+                                </div>
+                            </li>
+                            <li class="consulta">
+                                <div class="consulta__cliente">
+                                    <img class="consulta__perfil" src="img/perfil-2.jpg" alt="Foto de perfil Luciana Dias">
+                                    <div class="consulta__descricao">
+                                        <h4 class="consulta__nome">Luciana Dias</h4>
+                                        <h5 class="consulta__tipo">
+                                            <img class="consulta__icone" src="img/icones/Camera.svg" alt="Ícone de consulta remota">
+                                            <span>Consulta remota</span>
+                                        </h5>
+                                    </div>
+                                    <div class="consulta__chat">
+                                        <a href="#">
+                                            <img src="img/icones/Chat.svg" alt="Ícone de conversa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="consulta__horario">14:00 - 15:00 (1 hora)</p>
+                                <div class="consulta__botoes">
+                                    <a class="consulta__botao botao-video" href="#">Ligar por vídeo</a>
+                                    <a class="consulta__botao" href="#">Ligar por áudio</a>
+                                </div>
+                            </li>
+                            <li class="consulta">
+                                <div class="consulta__cliente">
+                                    <img class="consulta__perfil" src="img/perfil-4.jpg" alt="Foto de perfil Marcos Correia">
+                                    <div class="consulta__descricao">
+                                        <h4 class="consulta__nome">Marcos Correia</h4>
+                                        <h5 class="consulta__tipo">
+                                            <img class="consulta__icone" src="img/icones/Camera.svg" alt="Ícone de consulta remota">
+                                            <span>Consulta remota</span>
+                                        </h5>
+                                    </div>
+                                    <div class="consulta__chat">
+                                        <a href="#">
+                                            <img src="img/icones/Chat.svg" alt="Ícone de conversa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="consulta__horario">17:20 - 18:00 (40 minutos)</p>
+                                <div class="consulta__botoes">
+                                    <a class="consulta__botao botao-video" href="#">Ligar por vídeo</a>
+                                    <a class="consulta__botao" href="#">Ligar por áudio</a>
+                                </div>
+                            </li>
+                            <li class="consulta">
+                                <div class="consulta__cliente">
+                                    <img class="consulta__perfil" src="img/perfil-3.jpg" alt="Foto de perfil Larissa Santana">
+                                    <div class="consulta__descricao">
+                                        <h4 class="consulta__nome">Larissa Santana</h4>
+                                        <h5 class="consulta__tipo">
+                                            <img class="consulta__icone" src="img/icones/Pin.svg" alt="Ícone de consulta remota">
+                                            <span>Consulta no local</span>
+                                        </h5>
+                                    </div>
+                                    <div class="consulta__chat">
+                                        <a href="#">
+                                            <img src="img/icones/Chat.svg" alt="Ícone de conversa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="consulta__horario">16:00 - 17:00 (1 hora)</p>
+                                <div class="consulta__botoes">
+                                    <a class="consulta__botao botao-endereco" href="#">Ver endereço</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="consultas__dia">
+                        <h3 class="consultas__dia-titulo">Quarta-feira</h3>
+                        <ul class="consultas__dia-horario">
+                            <li class="consulta">
+                                <div class="consulta__cliente">
+                                    <img class="consulta__perfil" src="img/perfil-5.jpg" alt="Foto de perfil Clara Lemos">
+                                    <div class="consulta__descricao">
+                                        <h4 class="consulta__nome">Clara Lemos</h4>
+                                        <h5 class="consulta__tipo">
+                                            <img class="consulta__icone" src="img/icones/Pin.svg" alt="Ícone de consulta remota">
+                                            <span>Consulta no local</span>
+                                        </h5>
+                                    </div>
+                                    <div class="consulta__chat">
+                                        <a href="#">
+                                            <img src="img/icones/Chat.svg" alt="Ícone de conversa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="consulta__horario">18:00 - 19:00 (1 hora)</p>
+                                <div class="consulta__botoes">
+                                    <a class="consulta__botao botao-endereco" href="#">Ver endereço</a>
+                                </div>
+                            </li>
+                            <li class="consulta">
+                                <div class="consulta__cliente">
+                                    <img class="consulta__perfil" src="img/perfil-2.jpg" alt="Foto de perfil Luciana Dias">
+                                    <div class="consulta__descricao">
+                                        <h4 class="consulta__nome">Luciana Dias</h4>
+                                        <h5 class="consulta__tipo">
+                                            <img class="consulta__icone" src="img/icones/Camera.svg" alt="Ícone de consulta remota">
+                                            <span>Consulta remota</span>
+                                        </h5>
+                                    </div>
+                                    <div class="consulta__chat">
+                                        <a href="#">
+                                            <img src="img/icones/Chat.svg" alt="Ícone de conversa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="consulta__horario">14:00 - 15:00 (1 hora)</p>
+                                <div class="consulta__botoes">
+                                    <a class="consulta__botao botao-video" href="#">Ligar por vídeo</a>
+                                    <a class="consulta__botao" href="#">Ligar por áudio</a>
+                                </div>
+                            </li>
+                            <li class="consulta">
+                                <div class="consulta__cliente">
+                                    <img class="consulta__perfil" src="img/perfil-4.jpg" alt="Foto de perfil Marcos Correia">
+                                    <div class="consulta__descricao">
+                                        <h4 class="consulta__nome">Marcos Correia</h4>
+                                        <h5 class="consulta__tipo">
+                                            <img class="consulta__icone" src="img/icones/Camera.svg" alt="Ícone de consulta remota">
+                                            <span>Consulta remota</span>
+                                        </h5>
+                                    </div>
+                                    <div class="consulta__chat">
+                                        <a href="#">
+                                            <img src="img/icones/Chat.svg" alt="Ícone de conversa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="consulta__horario">17:20 - 18:00 (40 minutos)</p>
+                                <div class="consulta__botoes">
+                                    <a class="consulta__botao botao-video" href="#">Ligar por vídeo</a>
+                                    <a class="consulta__botao" href="#">Ligar por áudio</a>
+                                </div>
+                            </li>
+                            <li class="consulta">
+                                <div class="consulta__cliente">
+                                    <img class="consulta__perfil" src="img/perfil-3.jpg" alt="Foto de perfil Larissa Santana">
+                                    <div class="consulta__descricao">
+                                        <h4 class="consulta__nome">Larissa Santana</h4>
+                                        <h5 class="consulta__tipo">
+                                            <img class="consulta__icone" src="img/icones/Pin.svg" alt="Ícone de consulta remota">
+                                            <span>Consulta no local</span>
+                                        </h5>
+                                    </div>
+                                    <div class="consulta__chat">
+                                        <a href="#">
+                                            <img src="img/icones/Chat.svg" alt="Ícone de conversa">
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="consulta__horario">16:00 - 17:00 (1 hora)</p>
+                                <div class="consulta__botoes">
+                                    <a class="consulta__botao botao-endereco" href="#">Ver endereço</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="formulario">
+                <h2 class="formulario__titulo">Nova consulta</h2>
+                <form class="formulario__form">
+                    <div class="formulario__campos">
+                        <fieldset class="formulario__fieldset">
+                            <legend class="formulario__label" for="nome">Nome do paciente</legend>
+                            <input class="formulario__input" type="text" name="nome" id="nome">
+                        </fieldset>
+                        <fieldset class="formulario__fieldset">
+                            <legend class="formulario__label" for="tipo">Tipo de consulta</legend>
+                            <select class="formulario__select" name="tipo" id="tipo">
+                                <option class="formulario__option" value="local">Consulta no local</option>
+                                <option class="formulario__option" value="remota">Consulta remota</option>
+                            </select>
+                        </fieldset>
+                        <fieldset class="formulario__fieldset">
+                            <legend class="formulario__label" for="data">Data da consulta</legend>
+                            <input class="formulario__input" type="date" name="data" id="data">
+                        </fieldset>
+                            <fieldset class="formulario__fieldset">
+                            <legend class="formulario__label" for="horario">Horário da consulta</legend>
+                            <input class="formulario__input" type="time" name="horario" id="horario">
+                        </fieldset>
+                        <fieldset class="formulario__fieldset">
+                            <legend class="formulario__label" for="observacoes">Observações</legend>
+                            <input class="formulario__input" type="text" name="observacoes" id="observacoes"></input>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <br>
+                        <button class="formulario__botao" type="submit">Salvar</button>
+                    </div>      
+                </form>
+            </section>
+        </main>
+        <footer class="rodape">
+            <nav class="rodape__navegacao">
+                <ul class="rodape__menu">
+                    <li class="rodape__menu-item">
+                        <a class="rodape__menu-link" href="#">
+                            <img class="rodape__menu-icone" src="img/icones/Calendar.svg" alt="Ícone de consultas">
+                            <span class="rodape__menu-texto">Consultas</span>
+                        </a>
+                    </li>
+                    <li class="rodape__menu-item">
+                        <a class="rodape__menu-link" href="#">
+                            <img class="rodape__menu-icone" src="img/icones/Clientes.svg" alt="Ícone de clientes">
+                            <span class="rodape__menu-texto">Clientes</span>
+                        </a>
+                    </li>
+                    <li class="rodape__menu-item">
+                        <a class="rodape__menu-link" href="#">
+                            <img class="rodape__menu-icone" src="img/icones/Relatorios.svg" alt="Ícone de relatórios">
+                            <span class="rodape__menu-texto">Relatórios</span>
+                        </a>
+                    </li>
+                    <li class="rodape__menu-item">
+                        <a class="rodape__menu-link" href="#">
+                            <img class="rodape__menu-icone" src="img/icones/Menu.svg" alt="Ícone de menu">
+                            <span class="rodape__menu-texto">Menu</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>

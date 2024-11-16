@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('reset.css');
+@import url('cabecalho.css');
+@import url('principal.css');
+@import url('rodape.css');
+@import url('botoes-flutuantes.css');
+@import url('formulario.css');
+
+:root {
+    --branco: #FFFFFF;
+    --cinza-claro: #F8F4FF;
+    --cinza-claro-2: #F6F6F6;
+    --cinza-claro-3: #ECECEC;
+    --cinza-medio: #A3A3A3;
+    --cinza-escuro: #464646;
+    --amarelo:#FFB050;
+    --azul: #4894FF;
+    --preto-transparente: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: var(--cinza-claro);
+    color: var(--cinza-escuro);
+    font-family: 'Montserrat', sans-serif;
+}
